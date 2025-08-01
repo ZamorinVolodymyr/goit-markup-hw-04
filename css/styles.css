@@ -77,6 +77,8 @@ a {
 }
 
 .hero {
+  max-width: 1440px;
+  margin: auto;
   background: #2e2f42;
   padding-top: 188px;
   padding-bottom: 188px;
@@ -122,6 +124,7 @@ a {
 .button:hover,
 .button:focus {
   background: #404bbf;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .about-us {
@@ -139,6 +142,8 @@ a {
   border-radius: 4px;
   background-color: #f4f4fd;
   display: flex;
+  border: 1px solid #8e8f99;
+  margin-bottom: 8px;
 }
 
 .about {
@@ -295,6 +300,14 @@ a {
   margin: 0;
 }
 
+.icon-socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 232px;
+  height: 40px;
+}
+
 .icon-list {
   display: flex;
   justify-content: center;
@@ -432,6 +445,7 @@ a {
   align-items: flex-start;
   flex-wrap: wrap;
   gap: 120px;
+  align-items: baseline;
 }
 
 .footer-logo {
@@ -469,7 +483,7 @@ a {
   height: 100%;
   background-color: #4d5ae5;
   border-radius: 50%;
-  transition: background-color 250ms ease-in-out;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-soc-text {
@@ -477,7 +491,8 @@ a {
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
-  color: var(--white);
+  color: #ffffff;
+  margin-bottom: 16px;
 }
 
 .footer-contacts {
