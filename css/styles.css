@@ -119,12 +119,12 @@ a {
   padding: 16px 32px;
   border: none;
   border-radius: 4px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button:hover,
 .button:focus {
   background: #404bbf;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .about-us {
@@ -300,14 +300,6 @@ a {
   margin: 0;
 }
 
-.icon-socials {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 232px;
-  height: 40px;
-}
-
 .icon-list {
   display: flex;
   justify-content: center;
@@ -437,6 +429,7 @@ a {
 
 .footer-logo-container {
   max-width: 264px;
+  margin-right: 120px;
 }
 
 .footer-container {
@@ -444,7 +437,6 @@ a {
   justify-content: flex-start;
   align-items: flex-start;
   flex-wrap: wrap;
-  gap: 120px;
   align-items: baseline;
 }
 
@@ -497,6 +489,7 @@ a {
 
 .footer-contacts {
   width: 208px;
+  margin-right: 0;
 }
 
 .footer-contacts-list {
@@ -515,5 +508,10 @@ a {
 }
 
 .social-icon {
-  fill: #ffffff;
+  fill: #f4f4fd;
+}
+
+.footer-contacts-link:hover,
+.footer-contacts-link:focus {
+  background-color: #31d0aa;
 }
