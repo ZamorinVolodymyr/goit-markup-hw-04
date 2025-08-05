@@ -133,7 +133,6 @@ a {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin-top: 8px;
   margin-bottom: 8px;
 }
 
@@ -502,7 +501,6 @@ a {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   max-width: 264px;
-  margin-top: 16px;
 }
 
 .footer-contacts-link {
@@ -534,7 +532,6 @@ a {
   display: flex;
   justify-content: center;
   gap: 16px;
-  margin-top: 8px;
 }
 
 .footer-contacts-item {
